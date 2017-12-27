@@ -1,7 +1,7 @@
-Iquidus Explorer - 1.6.1
+Hush Explorer - 1.6.1
 ================
 
-An open source block explorer written in node.js.
+An open source block explorer for Hush written in node.js.
 
 ### See it in action
 
@@ -18,7 +18,7 @@ An open source block explorer written in node.js.
 
 *  node.js >= 0.10.28
 *  mongodb 2.6.x
-*  *coind
+*  hushd
 
 ### Create database
 
@@ -32,7 +32,7 @@ Create databse:
 
 Create user with read/write access:
 
-    > db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "hush", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 
 *note: If you're using mongo shell 2.4.x, use the following to create your user:
 
@@ -40,11 +40,11 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/TheTrunk/explorer-hush
 
 ### Install node modules
 
-    cd explorer && npm install --production
+    cd explorer-hush && npm install --production
 
 ### Configure
 
@@ -56,7 +56,7 @@ Create user with read/write access:
 
     npm start
 
-*note: mongod must be running to start the explorer*
+*note: mongod must be running to start the explorer-hush*
 
 As of version 1.4.0 the explorer defaults to cluster mode, forking an instance of its process to each cpu core. This results in increased performance and stability. Load balancing gets automatically taken care of and any instances that for some reason die, will be restarted automatically. For testing/development (or if you just wish to) a single instance can be launched with
 
@@ -94,9 +94,9 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 *Example crontab; update index every minute and market data every 2 minutes*
 
-    */1 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
-    */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
-    */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
+    */1 * * * * cd /path/to/explorer-hush && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
+    */2 * * * * cd /path/to/explorer-hush && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
+    */5 * * * * cd /path/to/explorer-hush && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
 
 ### Wallet
 
@@ -106,8 +106,7 @@ Iquidus Explorer is intended to be generic so it can be used with any wallet fol
 
 ### Donate
 
-    BTC: 168hdKA3fkccPtkxnX8hBrsxNubvk4udJi
-    JBS: JZp9893FMmrm1681bDuJBU7c6w11kyEY7D
+    HUSH: t1TSDB3nmS1JFDDJkyddumfTw9HwvMVeHnL
 
 ### Known Issues
 
@@ -138,7 +137,8 @@ Where [SIZE] is an integer higher than the default.
 ### License
 
 Copyright (c) 2015, Iquidus Technology  
-Copyright (c) 2015, Luke Williams  
+Copyright (c) 2015, Luke Williams
+Copyright (c) 2017, TheTrunk  
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

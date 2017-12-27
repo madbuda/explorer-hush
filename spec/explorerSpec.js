@@ -1,4 +1,4 @@
-describe('explorer', function() {
+describe('explorer', function() { //TODO2
   var lib = require('../lib/explorer');
   var data = require('../test/data.js');
 

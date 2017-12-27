@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "HUSH",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "HUSH",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "HUSH",
 
   // logo
   "logo": "/images/logo.png",
@@ -33,7 +33,7 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
+    "user": "hush",
     "password": "3xp!0reR",
     "database": "explorerdb",
     "address": "localhost",
@@ -47,9 +47,9 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 8888,
+    "user": "rpcuser",
+    "pass": "axy52rpop2o"
   },
 
   // confirmations
@@ -71,31 +71,31 @@
     "network": true
   },
 
-  // index page (valid options for difficulty are POW, POS or Hybrid)
+  // index page (valid options for difficulty are POW, POS or Hybrid) 
   "index": {
     "show_hashrate": true,
     "difficulty": "POW",
     "last_txs": 100
   },
 
-  // ensure links on API page are valid
+  // ensure links on API page are valid TODO2
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 70000,
+    "blockhash": "000000ddd2b65cf956e414d7574d27608f609c63d112cc5abc299a97ca9f12be",
+    "txhash": "281f33fc526eb059c3c99e472c649fd6fcffe2bf47ba67ecd184061351edfea2",
+    "address": "t1UahJwU2ewQew9AvwYy2Qp1heKXJDcTkeZ"
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "HUSH",
     "exchange": "BTC",
-    "enabled": ["bittrex"],
-    "cryptopia_id": "1658",
-    "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
+    "enabled": ["cryptopia"],
+    "cryptopia_id": "4405",
+    "ccex_key" : "",
+    "default": "cryptopia"
   },
 
   // richlist/top100 settings
@@ -115,13 +115,13 @@
   },
 
   // twitter, facebook, googleplus
-  "twitter": "iquidus",
-  "facebook": "yourfacebookpage",
-  "googleplus": "yourgooglepluspage",
+  "twitter": "https://twitter.com/MyHushTeam",
+  "facebook": "",
+  "googleplus": "",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "0x830539f9ec196f36a2759638b674a51b668eba7bbf6af10c56fed4af666be177",
+  "genesis_block": "0x0003a67bc26fe564b75daf11186d360652eb435a35ba3d9d3e7e5d5f8e62dc17",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,

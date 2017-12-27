@@ -5,7 +5,7 @@ An open source block explorer for Hush written in node.js based on [Iquidus Expl
 
 ### See it in action
 
-*  [Hush explorer](http://explorer.hush.info)
+*  [Hush explorer](http://explorer.myhush.info)
 
 *note: If you would like your instance mentioned here contact me*
 
@@ -130,7 +130,6 @@ Where [SIZE] is an integer higher than the default.
 
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams   
-Copyright (c) 2017, TheTrunk  
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -68,7 +68,10 @@
     "googleplus": false,
     "search": true,
     "movement": true,
-    "network": true
+    "network": true,
+    "github": true,
+    "discord": true,
+    "website":  true
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid) 
@@ -114,10 +117,13 @@
     "high_flag": 5000
   },
 
-  // twitter, facebook, googleplus
-  "twitter": "https://twitter.com/MyHushTeam",
+  // twitter, facebook, googleplus, github, discord
+  "twitter": "MyHushTeam",
   "facebook": "",
   "googleplus": "",
+  "discrod": "hush",
+  "github": "MyHush",
+  "website":  "myhush.org",
 
   //genesis
   "genesis_tx": "0x830539f9ec196f36a2759638b674a51b668eba7bbf6af10c56fed4af666be177",

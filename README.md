@@ -1,16 +1,11 @@
 Hush Explorer - 1.6.1
 ================
 
-An open source block explorer for Hush written in node.js.
+An open source block explorer for Hush written in node.js based on [Iquidus Explorer - 1.6.1](https://github.com/iquidus/explorer)
 
 ### See it in action
 
-*  [Jumbucks](http://explorer.getjumbucks.com)
-*  [Sphere](http://sphere.iquidus.io)
-*  [SAR](http://explorer.sarcoin.info)
-*  [Vanillacoin](https://blockchain.vanillacoin.net/)
-*  [Neoscoin](http://explorer.infernopool.com/)  
-*  [C2Chain](http://c2chain.info/)
+*  [Hush explorer](http://explorer.hush.info)
 
 *note: If you would like your instance mentioned here contact me*
 
@@ -34,9 +29,6 @@ Create user with read/write access:
 
     > db.createUser( { user: "hush", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
 
-*note: If you're using mongo shell 2.4.x, use the following to create your user:
-
-    > db.addUser( { user: "username", pwd: "password", roles: [ "readWrite"] })
 
 ### Get the source
 
@@ -137,7 +129,7 @@ Where [SIZE] is an integer higher than the default.
 ### License
 
 Copyright (c) 2015, Iquidus Technology  
-Copyright (c) 2015, Luke Williams
+Copyright (c) 2015, Luke Williams   
 Copyright (c) 2017, TheTrunk  
 All rights reserved.
 

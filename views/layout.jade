@@ -213,23 +213,23 @@ html
             li.pull-left
               a#googleplus-icon(href="https://plus.google.com/#{settings.googleplus}", target='_blank')
                 span.glyphicon.fa.fa-google-plus
-        if settings.display.googleplus
+        if settings.display.github
           ul.nav.navbar-nav
             li.pull-left
-              a#github-icon(href="https://github.com/#{settings.github}", target='_blank')
+              a#twitter-icon(href="https://github.com/#{settings.github}", target='_blank')
                 span.glyphicon.fa.fa-github
-        if settings.display.googleplus
+        if settings.display.discord
           ul.nav.navbar-nav
             li.pull-left
-              a#discord-icon(href="https://discord.io/#{settings.discord}", target='_blank')
-                span.glyphicon.fa.fa-discord
+              a#twitter-icon(href="https://discord.io/#{settings.discord}", target='_blank')
+                span.glyphicon.fa.fa-paper-plane
       .col-md-4
         ul.nav
           li.text-center(style='margin-left:80px;margin-right:80px;')
             p(style='margin-top:15px;') 
               a.navbar-link(href='https://github.com/TheTrunk/explorer-hush', target='_blank') Hush Explorer (Powered by Iquidus Explorer)
-			  <br>
-			  a.navbar-link(href='https://explorer.hush.info/address/t1TSDB3nmS1JFDDJkyddumfTw9HwvMVeHnL', target='_blank') Buy TheTrunk a chocolate
+               <br>
+              a.navbar-link(href='https://explorer.hush.info/address/t1TSDB3nmS1JFDDJkyddumfTw9HwvMVeHnL', target='_blank') Buy TheTrunk a chocolate
       span.connections
         label#lblBlockcount.label.label-default -
         label#lblConnections.label.label-default -

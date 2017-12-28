@@ -124,6 +124,9 @@ app.set('show_sent_received', settings.show_sent_received);
 app.set('logo', settings.logo);
 app.set('theme', settings.theme);
 app.set('labels', settings.labels);
+app.set('website', settings.website);
+app.set('github', settings.github);
+app.set('discord', settings.discord);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

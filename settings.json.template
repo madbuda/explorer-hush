@@ -47,7 +47,7 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 8888,
+    "port": 8822,
     "user": "rpcuser",
     "pass": "axy52rpop2o"
   },
@@ -121,7 +121,7 @@
   "twitter": "MyHushTeam",
   "facebook": "",
   "googleplus": "",
-  "discrod": "hush",
+  "discord": "hush",
   "github": "MyHush",
   "website":  "myhush.org",
 

@@ -47,7 +47,7 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 8888,
+    "port": 8822,
     "user": "rpcuser",
     "pass": "axy52rpop2o"
   },
@@ -68,7 +68,10 @@
     "googleplus": false,
     "search": true,
     "movement": true,
-    "network": true
+    "network": true,
+    "github": true,
+    "discord": true,
+    "website":  true
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid) 
@@ -114,10 +117,13 @@
     "high_flag": 5000
   },
 
-  // twitter, facebook, googleplus
-  "twitter": "https://twitter.com/MyHushTeam",
+  // twitter, facebook, googleplus, github, discord
+  "twitter": "MyHushTeam",
   "facebook": "",
   "googleplus": "",
+  "discord": "hush",
+  "github": "MyHush",
+  "website":  "myhush.org",
 
   //genesis
   "genesis_tx": "0x830539f9ec196f36a2759638b674a51b668eba7bbf6af10c56fed4af666be177",
@@ -147,7 +153,7 @@
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "G",
+  "nethash_units": "K",
 
   // Address labels
   // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}

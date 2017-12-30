@@ -47,7 +47,7 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 8822,
+    "port": 18822,
     "user": "rpcuser",
     "pass": "axy52rpop2o"
   },
